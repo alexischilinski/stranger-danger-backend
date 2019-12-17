@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_17_165657) do
+ActiveRecord::Schema.define(version: 2019_12_17_184129) do
 
   create_table "bad_choices", force: :cascade do |t|
     t.string "image"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_12_17_165657) do
     t.string "result"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "resultImage"
   end
 
   create_table "good_choices", force: :cascade do |t|
@@ -26,6 +27,7 @@ ActiveRecord::Schema.define(version: 2019_12_17_165657) do
     t.string "result"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "resultImage"
   end
 
 end
