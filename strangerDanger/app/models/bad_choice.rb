@@ -1,0 +1,2 @@
+class BadChoice < ApplicationRecord
+end

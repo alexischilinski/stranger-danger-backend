@@ -1,0 +1,2 @@
+class GoodChoice < ApplicationRecord
+end
